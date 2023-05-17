@@ -1,0 +1,61 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #E2E2E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .typewriter{
+        width: 598px;
+        min-height: 120px;
+        font-size: 12px;
+line-height: 26px;
+text-align: center;
+    }
+    .progress__wrapper{
+        width: 100%;
+        flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .progress__bar, 
+    .progress__container{
+        border-radius: 3px;
+    }
+    .progress__container{
+        margin: 60px 0;
+        width: 298px;
+        height: 2px;
+    }
+    
+    .progress__bar{
+        height: 100%;
+        width: 0;
+        background: #FE6F07;
+    }
+
+    .percentage_wrapper{
+       color: #1C1C1C;
+       font-weight: 700;
+       font-size: 22px;
+       display: flex;
+       text-align: right;
+       height: 33px;
+       overflow: hidden;
+    }
+
+    .cine_logo{
+        position: absolute;
+    font-weight: 700;
+    opacity: 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    }
